@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C5086FE1E4A94AA003F3C60 /* BandsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5086FD1E4A94AA003F3C60 /* BandsDetailViewController.swift */; };
 		7CFD4E251E43F04F00C68944 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFD4E241E43F04F00C68944 /* AppDelegate.swift */; };
 		7CFD4E271E43F04F00C68944 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFD4E261E43F04F00C68944 /* ViewController.swift */; };
 		7CFD4E2A1E43F04F00C68944 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CFD4E281E43F04F00C68944 /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7C5086FD1E4A94AA003F3C60 /* BandsDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BandsDetailViewController.swift; sourceTree = "<group>"; };
 		7CFD4E211E43F04F00C68944 /* MusicApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CFD4E241E43F04F00C68944 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7CFD4E261E43F04F00C68944 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				7CFD4E241E43F04F00C68944 /* AppDelegate.swift */,
 				7CFD4E261E43F04F00C68944 /* ViewController.swift */,
 				7CFD4E3F1E43FB8000C68944 /* BandsTableViewController.swift */,
+				7C5086FD1E4A94AA003F3C60 /* BandsDetailViewController.swift */,
 				7CFD4E281E43F04F00C68944 /* Main.storyboard */,
 				7CFD4E2B1E43F04F00C68944 /* Assets.xcassets */,
 				7CFD4E2D1E43F04F00C68944 /* LaunchScreen.storyboard */,
@@ -164,6 +167,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C5086FE1E4A94AA003F3C60 /* BandsDetailViewController.swift in Sources */,
 				7CFD4E271E43F04F00C68944 /* ViewController.swift in Sources */,
 				7CFD4E401E43FB8000C68944 /* BandsTableViewController.swift in Sources */,
 				7CFD4E251E43F04F00C68944 /* AppDelegate.swift in Sources */,
