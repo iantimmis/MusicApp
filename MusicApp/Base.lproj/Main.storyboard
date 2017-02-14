@@ -107,6 +107,40 @@
             </objects>
             <point key="canvasLocation" x="-1103" y="551"/>
         </scene>
+        <!--Web View Controller-->
+        <scene sceneID="v1N-TT-HQt">
+            <objects>
+                <viewController id="6Fe-Vd-0cx" customClass="WebViewController" customModule="MusicApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rNI-xq-eb9"/>
+                        <viewControllerLayoutGuide type="bottom" id="Mk0-RX-oQg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1mb-OC-iaR">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eQ8-eG-T30">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="eQ8-eG-T30" firstAttribute="top" secondItem="1mb-OC-iaR" secondAttribute="top" id="EyM-Yk-C8F"/>
+                            <constraint firstItem="eQ8-eG-T30" firstAttribute="leading" secondItem="1mb-OC-iaR" secondAttribute="leading" id="hjD-g3-emi"/>
+                            <constraint firstAttribute="trailing" secondItem="eQ8-eG-T30" secondAttribute="trailing" id="q4T-0P-4lh"/>
+                            <constraint firstItem="Mk0-RX-oQg" firstAttribute="top" secondItem="eQ8-eG-T30" secondAttribute="bottom" id="tNK-jW-fhA"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="PSf-lC-EPr"/>
+                    <connections>
+                        <outlet property="siteWebView" destination="eQ8-eG-T30" id="fEy-l7-Wwk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kIa-zd-aRT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="480.80000000000001" y="550.97451274362822"/>
+        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="tqb-kS-sdu">
             <objects>
@@ -195,6 +229,17 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.84974500868055558" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lvt-0C-lz1">
+                                <rect key="frame" x="120" y="564" width="134" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Artist Info">
+                                    <color key="titleColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="6Fe-Vd-0cx" kind="show" id="bQX-EU-xSU"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -211,7 +256,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="i07-bV-ddw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="482" y="-215"/>
+            <point key="canvasLocation" x="480.80000000000001" y="-215.44227886056973"/>
         </scene>
     </scenes>
     <resources>

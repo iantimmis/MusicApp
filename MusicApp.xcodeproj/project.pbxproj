@@ -14,6 +14,7 @@
 		7C5087061E4D3837003F3C60 /* locationIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C5087031E4D3837003F3C60 /* locationIcon@3x.png */; };
 		7C5087091E53C156003F3C60 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C5087081E53C156003F3C60 /* MapKit.framework */; };
 		7C50870B1E53C56A003F3C60 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C50870A1E53C56A003F3C60 /* MapViewController.swift */; };
+		7C50870D1E53C9F2003F3C60 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C50870C1E53C9F2003F3C60 /* WebViewController.swift */; };
 		7CFD4E251E43F04F00C68944 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFD4E241E43F04F00C68944 /* AppDelegate.swift */; };
 		7CFD4E271E43F04F00C68944 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFD4E261E43F04F00C68944 /* ViewController.swift */; };
 		7CFD4E2A1E43F04F00C68944 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CFD4E281E43F04F00C68944 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 		7C5087031E4D3837003F3C60 /* locationIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "locationIcon@3x.png"; path = "../../../Downloads/locationIcon@3x.png"; sourceTree = "<group>"; };
 		7C5087081E53C156003F3C60 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		7C50870A1E53C56A003F3C60 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		7C50870C1E53C9F2003F3C60 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		7CFD4E211E43F04F00C68944 /* MusicApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CFD4E241E43F04F00C68944 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7CFD4E261E43F04F00C68944 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 				7C5086FD1E4A94AA003F3C60 /* BandsDetailViewController.swift */,
 				7C5086FF1E4D2A67003F3C60 /* BandDetail.swift */,
 				7C50870A1E53C56A003F3C60 /* MapViewController.swift */,
+				7C50870C1E53C9F2003F3C60 /* WebViewController.swift */,
 				7CFD4E281E43F04F00C68944 /* Main.storyboard */,
 				7CFD4E2B1E43F04F00C68944 /* Assets.xcassets */,
 				7CFD4E2D1E43F04F00C68944 /* LaunchScreen.storyboard */,
@@ -201,6 +204,7 @@
 				7C50870B1E53C56A003F3C60 /* MapViewController.swift in Sources */,
 				7CFD4E271E43F04F00C68944 /* ViewController.swift in Sources */,
 				7CFD4E401E43FB8000C68944 /* BandsTableViewController.swift in Sources */,
+				7C50870D1E53C9F2003F3C60 /* WebViewController.swift in Sources */,
 				7C5087001E4D2A67003F3C60 /* BandDetail.swift in Sources */,
 				7CFD4E251E43F04F00C68944 /* AppDelegate.swift in Sources */,
 			);
