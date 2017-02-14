@@ -10,10 +10,30 @@ import UIKit
 
 class BandsDetailViewController: UIViewController {
 
+    var currentBandDetail: BandDetail?
+    
+    @IBOutlet weak var bandNameLabel: UILabel!
+    @IBOutlet weak var bandTypeLabel: UILabel!
+    @IBOutlet weak var venueLabel: UILabel!
+    @IBOutlet weak var showDateLabel: UILabel!
+    @IBOutlet weak var showTimeLabel: UILabel!
+    @IBOutlet weak var showDetailsLabel: UILabel!
+    @IBOutlet weak var bandDescriptionLabel: UILabel!
+    @IBOutlet weak var bandImage: UIImageView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        bandNameLabel.text = currentBandDetail?.bandName
+        bandTypeLabel.text = currentBandDetail?.bandType
+        venueLabel.text = currentBandDetail?.venue
+        showDateLabel.text = currentBandDetail?.nextShowDate
+        showTimeLabel.text = currentBandDetail?.nextShowTime
+        showDetailsLabel.text = currentBandDetail?.showDetails
+        bandDescriptionLabel.text = currentBandDetail?.bandDescription
+        bandImage.image = UIImage(named:
+        currentBandDetail!.thumbImageName!)
     }
 
     override func didReceiveMemoryWarning() {
