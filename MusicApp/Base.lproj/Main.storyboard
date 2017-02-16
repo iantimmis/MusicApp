@@ -196,7 +196,7 @@
                                 <color key="backgroundColor" white="0.84974500868055558" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                             <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5zw-zM-b76">
-                                <rect key="frame" x="40" y="430" width="240" height="128"/>
+                                <rect key="frame" x="16" y="265" width="343" height="183"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </webView>
