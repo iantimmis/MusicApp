@@ -19,4 +19,5 @@ class BandDetail: NSObject
     var nextShowTime:String?
     var venue:String?
     var showDetails:String?
+    var videoURL:String?
 }
