@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>169999357356-m01ptqng1lrrflfk6034ip14lgkfo2ug.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.169999357356-m01ptqng1lrrflfk6034ip14lgkfo2ug</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCRf0S0Ga9mtpUkoGblGmcR8ZgcPHqgPyk</string>
+	<key>GCM_SENDER_ID</key>
+	<string>169999357356</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.IanTimmis.MusicApp</string>
+	<key>PROJECT_ID</key>
+	<string>musicapp-863aa</string>
+	<key>STORAGE_BUCKET</key>
+	<string>musicapp-863aa.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:169999357356:ios:3ab1a0bfa34527be</string>
+	<key>DATABASE_URL</key>
+	<string>https://musicapp-863aa.firebaseio.com</string>
+</dict>
+</plist>

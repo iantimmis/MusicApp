@@ -17,6 +17,7 @@
 		7C50870B1E53C56A003F3C60 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C50870A1E53C56A003F3C60 /* MapViewController.swift */; };
 		7C50870D1E53C9F2003F3C60 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C50870C1E53C9F2003F3C60 /* WebViewController.swift */; };
 		7C50870F1E566A65003F3C60 /* BandsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C50870E1E566A65003F3C60 /* BandsModel.swift */; };
+		7C5087111E5D0065003F3C60 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7C5087101E5D0065003F3C60 /* GoogleService-Info.plist */; };
 		7CFD4E251E43F04F00C68944 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFD4E241E43F04F00C68944 /* AppDelegate.swift */; };
 		7CFD4E271E43F04F00C68944 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFD4E261E43F04F00C68944 /* ViewController.swift */; };
 		7CFD4E2A1E43F04F00C68944 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CFD4E281E43F04F00C68944 /* Main.storyboard */; };
@@ -40,6 +41,7 @@
 		7C50870A1E53C56A003F3C60 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		7C50870C1E53C9F2003F3C60 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		7C50870E1E566A65003F3C60 /* BandsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BandsModel.swift; sourceTree = "<group>"; };
+		7C5087101E5D0065003F3C60 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		7CFD4E211E43F04F00C68944 /* MusicApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CFD4E241E43F04F00C68944 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7CFD4E261E43F04F00C68944 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 				7CFD4E2B1E43F04F00C68944 /* Assets.xcassets */,
 				7CFD4E2D1E43F04F00C68944 /* LaunchScreen.storyboard */,
 				7CFD4E301E43F04F00C68944 /* Info.plist */,
+				7C5087101E5D0065003F3C60 /* GoogleService-Info.plist */,
 				7CFD4E3E1E43F65C00C68944 /* Images */,
 			);
 			path = MusicApp;
@@ -210,6 +213,7 @@
 				7C5087041E4D3837003F3C60 /* locationIcon.png in Resources */,
 				7CFD4E2C1E43F04F00C68944 /* Assets.xcassets in Resources */,
 				7CFD4E2A1E43F04F00C68944 /* Main.storyboard in Resources */,
+				7C5087111E5D0065003F3C60 /* GoogleService-Info.plist in Resources */,
 				7C5087051E4D3837003F3C60 /* locationIcon@2x.png in Resources */,
 				7C5087061E4D3837003F3C60 /* locationIcon@3x.png in Resources */,
 			);
