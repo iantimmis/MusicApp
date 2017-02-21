@@ -15,17 +15,12 @@ class BandsTableViewController: UITableViewController {
 
     override func viewDidLoad() { 
         super.viewDidLoad()
-        bandsModel.fetch();
         
-        let myRootRef = FIRDatabase.database().reference()
-        
-        //Write data to Firebase
-        myRootRef.setValue("Do you have data? You'll love firebase.")
-        myRootRef.observe(.value, with: {
-            snapshot in
-            print("\(snapshot.key) -> \(snapshot.value)")
-        })
- 
+        bandsModel.fetch {[weak self] (Void) -> Void in
+            if let strongSelf = self {
+                strongSelf.tableView.reloadData()
+            }
+        }
     }
 
     override func didReceiveMemoryWarning() {
