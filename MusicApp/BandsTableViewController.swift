@@ -12,15 +12,45 @@ import Firebase
 class BandsTableViewController: UITableViewController {
     
     let bandsModel = BandsModel()
+    
+    var detailViewController: BandsDetailViewController!
 
     override func viewDidLoad() { 
         super.viewDidLoad()
         
-        bandsModel.fetch {[weak self] (Void) -> Void in
-            if let strongSelf = self {
-                strongSelf.tableView.reloadData()
-            }
-        }
+        //do
+        //{
+            bandsModel.fetch(complete: {[weak self]
+                (Void) -> Void in
+                
+                if let strongSelf = self {
+                    strongSelf.tableView.reloadData()
+                    
+                    ////
+                    let indexPath = IndexPath(row: 0, section: 0)
+                    
+                    if (UIDevice.current.model.range(of: "iPad") != nil) {
+                        
+                        strongSelf.tableView.selectRow(at: indexPath, animated: false,
+                                                                  
+                                                                  scrollPosition: UITableViewScrollPosition(rawValue: 0)!)
+                        
+                        let bandDetail = strongSelf.bandsModel.bandDetails[indexPath.row]
+                        
+                        strongSelf.detailViewController.currentBandDetail = bandDetail
+                        
+                        strongSelf.detailViewController.refreshView()
+                        
+                    }
+                    ///
+                }
+            })
+        //}
+        //catch
+        //{
+          //  exit(0)
+        //}
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -99,6 +129,16 @@ class BandsTableViewController: UITableViewController {
     */
 
     // MARK: - Navigation
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath)
+    {
+        if (UIDevice.current.model.range(of: "iPad") != nil)
+        {
+            let bandDetail = bandsModel.bandDetails[indexPath.row]
+            detailViewController.currentBandDetail = bandDetail
+            detailViewController.refreshView()
+        }
+    }
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {

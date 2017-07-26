@@ -23,9 +23,18 @@ class BandsDetailViewController: UIViewController {
     
     @IBOutlet weak var videoWebView: UIWebView!
     
-    override func viewDidLoad() {
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
-
+        
+        if (UIDevice.current.model.range(of: "iPad") == nil)
+        {
+            self.refreshView()
+        }
+    }
+    
+    func refreshView()
+    {
         bandNameLabel.text = currentBandDetail?.bandName
         bandTypeLabel.text = currentBandDetail?.bandType
         venueLabel.text = currentBandDetail?.venue
